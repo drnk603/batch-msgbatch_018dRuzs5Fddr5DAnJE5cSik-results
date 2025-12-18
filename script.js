@@ -18,11 +18,11 @@
             message: 'Bitte geben Sie einen gültigen Namen ein (2-50 Zeichen, nur Buchstaben)'
         },
         email: {
-            pattern: /^[^s@]+@[^s@]+.[^s@]+$/,
+            pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
             message: 'Bitte geben Sie eine gültige E-Mail-Adresse ein'
         },
         phone: {
-            pattern: /^[ds+-()]{10,20}$/,
+            pattern: /^[\d+\-()]{10,20}$/,
             message: 'Bitte geben Sie eine gültige Telefonnummer ein (10-20 Zeichen)'
         },
         message: {
